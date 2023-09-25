@@ -9,7 +9,7 @@ Welcome to my portfolio! This repository contains a collection of my projects, s
 
 # Deployment
 
-Deployed Website: [https://LaithAlmajali.com]](https://laith17.github.io/My-Portofolio/).
+Deployed Website: [https://LaithAlmajali.com](https://laith17.github.io/My-Portofolio/).
 
 Figma Design (Wireframe): [https://Portofolio(Wireframe).com](https://shorturl.at/krCE1)
 
