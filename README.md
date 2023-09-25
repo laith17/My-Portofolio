@@ -10,7 +10,9 @@ Welcome to my portfolio! This repository contains a collection of my projects, s
 # Deployment
 
 Deployed Website: [https://MyPortofolio.com]().
+
 Figma Design (Wireframe): [https://Portofolio(Wireframe).com](https://shorturl.at/krCE1)
+
 Figma Design (Mockup): [https://Portofolio(Mockup).com](https://shorturl.at/jkDI2)
 
 # Skills Used
