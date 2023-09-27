@@ -196,7 +196,7 @@ ul {
 /** Start Hero Section */
 
 .hero-section {
-  background-image: url("images/Hero.jpg");
+  background-image: url("/images/Hero.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -429,7 +429,7 @@ ul {
 /** Start Contact Section  */
 
 .contact-section {
-  background-image: url("images/Hero.jpg");
+  background-image: url("/images/Hero.jpg");
   background-size: cover;
   background-position: center;
 }
