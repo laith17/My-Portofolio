@@ -18,48 +18,56 @@
       href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <script src="javascript/script.js" defer></script>
     <title>LaithAl-Majali</title>
   </head>
   <body>
-    <!-- Start Header -->
+    <!--** Start Header -->
 
     <header class="header">
-      <nav class="nav-main">
-        <div class="header-logo">
-          <a href="index.html">
-            <img
-              src="images/Profile Image.jpg"
-              alt="Profile Image"
-              class="header-logo-img"
-            />
-          </a>
-          <a href="index.html">
-            <span class="header-logo-text">Laith Al-Majali</span>
-          </a>
-        </div>
-        <ul class="nav-main-links">
-          <li class="link-item">
-            <a href="index.html">Home</a>
-          </li>
-          <li class="link-item">
-            <a href="#about">About Me</a>
-          </li>
-          <li class="link-item">
-            <a href="#qualifications">Qualifications</a>
-          </li>
-          <li class="link-item">
-            <a href="#projects">Projects</a>
-          </li>
-          <li class="link-item">
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
+      <div class="container">
+        <nav class="nav-main">
+          <div class="header-logo">
+            <a href="index.html">
+              <img
+                src="images/Profile Image.jpg"
+                alt="Profile Image"
+                class="header-logo-img"
+              />
+            </a>
+            <a href="index.html">
+              <span class="header-logo-text">Laith Al-Majali</span>
+            </a>
+          </div>
+          <ul class="nav-main-links">
+            <li class="link-item">
+              <a href="index.html">Home</a>
+            </li>
+            <li class="link-item">
+              <a href="#about">About Me</a>
+            </li>
+            <li class="link-item">
+              <a href="#qualifications">Qualifications</a>
+            </li>
+            <li class="link-item">
+              <a href="#projects">Projects</a>
+            </li>
+            <li class="link-item">
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </nav>
+      </div>
     </header>
 
-    <!-- End Header -->
+    <!--* End Header -->
 
-    <!-- Start Hero Section -->
+    <!--* Start Hero Section -->
 
     <section class="hero-section">
       <div class="container">
@@ -75,7 +83,9 @@
       </div>
       <ul class="hero-socialmedia-links">
         <li class="link-item">
-          <a href="https://www.linkedin.com/in/laith-almajaly-283781257/" target="_blank"
+          <a
+            href="https://www.linkedin.com/in/laith-almajaly-283781257/"
+            target="_blank"
             ><i class="fa-brands fa-linkedin"></i
           ></a>
         </li>
@@ -97,12 +107,12 @@
       </ul>
     </section>
 
-    <!-- End Hero Section -->
+    <!--* End Hero Section -->
 
-    <!-- Start About Me Section -->
+    <!--* Start About Me Section -->
 
     <main>
-      <section class="about-section" id="about">
+      <section class="about-section section" id="about">
         <div class="container">
           <div class="section-heading">
             <h2 class="heading-secondary">About Me</h2>
@@ -165,11 +175,11 @@
         </div>
       </section>
 
-      <!-- End About Me Section -->
+      <!--* End About Me Section -->
 
-      <!-- Start Qualifications Section -->
+      <!--* Start Qualifications Section -->
 
-      <section class="qualifications-section" id="qualifications">
+      <section class="qualifications-section section" id="qualifications">
         <div class="container">
           <div class="section-heading">
             <h2 class="heading-secondary">Qualifications</h2>
@@ -178,51 +188,63 @@
               Education in the past few years.
             </p>
           </div>
-
-          <ul class="qualifications-list">
-            <li class="list-item">
+          <div class="qualifications-box left-box">
+            <i class="fa-solid fa-circle circle"></i>
+            <div class="qualifications-text-box">
               <div class="list-header">
                 <i class="fa-solid fa-circle"></i>
-                <h3 class="heading-ternary heading-clipped">(2019 - 2023)</h3>
+                <h3 class="heading-ternary">University</h3>
               </div>
+              <p class="year">(2019 - 2023)</p>
               <p class="text-ternary">
                 Bachelor's degree in Computer Science from Al-Hussein Bin Talal
                 University with a very good grade (78.2).
               </p>
-            </li>
-            <li class="list-item">
+              <span class="left-box-arrow"></span>
+            </div>
+          </div>
+          <div class="qualifications-box right-box">
+            <i class="fa-solid fa-circle circle"></i>
+            <div class="qualifications-text-box">
               <div class="list-header">
                 <i class="fa-solid fa-circle"></i>
-                <h3 class="heading-ternary">(2022 - 2023)</h3>
+                <h3 class="heading-ternary">Udemy</h3>
               </div>
+              <p class="year">(2022 - 2023)</p>
               <p class="text-ternary">
                 Finished 3 courses on udemy about Html, Css, Sass and Javascript
                 with 4 projects that include it a lot of advanced web creation
                 techniques.
               </p>
-            </li>
-            <li class="list-item">
+              <span class="right-box-arrow"></span>
+            </div>
+          </div>
+          <div class="qualifications-box left-box">
+            <i class="fa-solid fa-circle circle"></i>
+            <div class="qualifications-text-box">
               <div class="list-header">
                 <i class="fa-solid fa-circle"></i>
-                <h3 class="heading-ternary">(2023 - 2024)</h3>
+                <h3 class="heading-ternary">Orange Coding Academy</h3>
               </div>
+              <p class="year">(2023 - 2024)</p>
               <p class="text-ternary">
-                In september 10th 2023, I joined Orange academy Bootcamp that
-                lasted for 4 months. We learned about a lot of web development
-                technologies, such as Html, Css, Javascript, ReactJS and
-                WordPress. In addition for learning Soft-Skills, how to do
+                In september 10th 2023, I joined Orange coding academy Bootcamp
+                that lasted for 4 months. We learned about a lot of web
+                development technologies, such as Html, Css, Javascript, ReactJS
+                and WordPress. In addition for learning Soft-Skills, how to do
                 presentations and much more.
               </p>
-            </li>
-          </ul>
+              <span class="left-box-arrow"></span>
+            </div>
+          </div>
         </div>
       </section>
 
-      <!-- End Qualifications Section -->
+      <!--* End Qualifications Section -->
 
-      <!-- Start Projects Section -->
+      <!--* Start Projects Section -->
 
-      <section class="projects-section" id="projects">
+      <section class="projects-section section" id="projects">
         <div class="container">
           <div class="section-heading">
             <h2 class="heading-secondary">PROJECTS</h2>
@@ -240,12 +262,14 @@
             <img
               src="images/Omnifood.PNG"
               alt="An image of the project"
-              class="projects-box-img-sub"
+              class="projects-box-img-sub sub1"
             />
             <div class="projects-text-box">
               <h3 class="heading-ternary">Omnifood</h3>
               <p class="text-ternary">
-                Omnifood is an AI-powered food subscription that will make you eat healthy again, 365 days per year. It's tailored to your personal tastes and nutritional needs.
+                Omnifood is an AI-powered food subscription that will make you
+                eat healthy again, 365 days per year. It's tailored to your
+                personal tastes and nutritional needs.
               </p>
               <a href="#" class="btn btn-md">MORE INFO</a>
             </div>
@@ -259,12 +283,13 @@
             <img
               src="images/Natours.PNG"
               alt="An image of the project"
-              class="projects-box-img-sub"
+              class="projects-box-img-sub sub2"
             />
             <div class="projects-text-box">
               <h3 class="heading-ternary">Netours</h3>
               <p class="text-ternary">
-                Netours is an awesome tour booking site that offers quality tours with experienced tour guides.
+                Netours is an awesome tour booking site that offers quality
+                tours with experienced tour guides.
               </p>
               <a href="#" class="btn btn-md">MORE INFO</a>
             </div>
@@ -278,12 +303,14 @@
             <img
               src="images/Trillo.PNG"
               alt="An image of the project"
-              class="projects-box-img-sub"
+              class="projects-box-img-sub sub3"
             />
             <div class="projects-text-box">
               <h3 class="heading-ternary">Trillo</h3>
               <p class="text-ternary">
-                Trillo is a professional, all-in-one booking web app for the Travel industry. You can view the Travel blogs,  Hotel bookings, Flight bookings and more.
+                Trillo is a professional, all-in-one booking web app for the
+                Travel industry. You can view the Travel blogs, Hotel bookings,
+                Flight bookings and more.
               </p>
               <a href="#" class="btn btn-md">MORE INFO</a>
             </div>
@@ -297,12 +324,13 @@
             <img
               src="images/Nexter.PNG"
               alt="An image of the project"
-              class="projects-box-img-sub"
+              class="projects-box-img-sub sub4"
             />
             <div class="projects-text-box">
               <h3 class="heading-ternary">Nexter</h3>
               <p class="text-ternary">
-                This project is a real estate company app that helps you find the right property for you in one place.
+                This project is a real estate company app that helps you find
+                the right property for you in one place.
               </p>
               <a href="#" class="btn btn-md">MORE INFO</a>
             </div>
@@ -310,11 +338,11 @@
         </div>
       </section>
 
-      <!-- End Projects Section -->
+      <!--* End Projects Section -->
 
-      <!-- Start Contact Section -->
+      <!--* Start Contact Section -->
 
-      <section class="contact-section" id="contact">
+      <section class="contact-section section" id="contact">
         <div class="container">
           <div class="section-heading">
             <h2 class="heading-secondary">CONTACT</h2>
@@ -327,39 +355,45 @@
           <div class="contact-box">
             <div class="contact-text-box">
               <h3 class="heading-ternary mb">GET IN TOUCH</h3>
-              <div class="contact-text-box-sub">
-                <div class="icon">
-                  <i class="fa-solid fa-phone"></i>
+              <div class="contact-text-box-sub-container">
+                <div class="contact-text-box-sub">
+                  <div class="icon">
+                    <i class="fa-solid fa-phone"></i>
+                  </div>
+                  <div class="sub-box">
+                    <p>Phone Number</p>
+                    <p>+(962) 778241468</p>
+                  </div>
                 </div>
-                <div class="sub-box">
-                  <p>Phone Number</p>
-                  <p>+(962) 778241468</p>
+                <div class="contact-text-box-sub">
+                  <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                  <div class="sub-box">
+                    <p>Email</p>
+                    <p>laithalmajaly007@gmail.com</p>
+                  </div>
                 </div>
-              </div>
-              <div class="contact-text-box-sub">
-                <div class="icon"><i class="fa-solid fa-envelope"></i></div>
-                <div class="sub-box">
-                  <p>Email</p>
-                  <p>laithalmajaly007@gmail.com</p>
-                </div>
-              </div>
-              <div class="contact-text-box-sub">
-                <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
-                <div class="sub-box">
-                  <p>Address</p>
-                  <p>Jordan, Zarqa, Shomer</p>
+                <div class="contact-text-box-sub">
+                  <div class="icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                  </div>
+                  <div class="sub-box">
+                    <p>Address</p>
+                    <p>Jordan, Zarqa, Shomer</p>
+                  </div>
                 </div>
               </div>
             </div>
             <div class="contact-form">
               <form class="form">
-                <input
-                  type="text"
-                  placeholder="Enter Your Name"
-                  id="name"
-                  required
-                />
-                <input type="email" placeholder="Enter Your Email" required />
+                <div class="user-info">
+                  <input
+                    type="text"
+                    placeholder="Enter Your Name"
+                    id="name"
+                    required
+                  />
+                  <input type="email" placeholder="Enter Your Email" required />
+                </div>
                 <textarea
                   name=""
                   id=""
@@ -375,9 +409,9 @@
       </section>
     </main>
 
-    <!-- End Contact Section -->
+    <!--* End Contact Section -->
 
-    <!-- Start Footer Section -->
+    <!--* Start Footer Section -->
 
     <footer class="footer">
       <div class="footer-links">
@@ -398,11 +432,14 @@
             <li class="link-item">
               <a href="#contact">Contact</a>
             </li>
+          </ul>
         </div>
 
         <ul class="footer-socialmedia-links">
           <li class="link-item">
-            <a href="https://www.linkedin.com/in/laith-almajaly-283781257/" target="_blank"
+            <a
+              href="https://www.linkedin.com/in/laith-almajaly-283781257/"
+              target="_blank"
               ><i class="fa-brands fa-linkedin"></i
             ></a>
           </li>
@@ -427,6 +464,6 @@
       <p class="copyright">&copy;Copyright 2023. Made by Laith Al-Majali</p>
     </footer>
 
-    <!-- End Footer Section -->
+    <!--* End Footer Section -->
   </body>
 </html>
