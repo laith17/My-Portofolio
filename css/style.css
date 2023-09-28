@@ -1036,7 +1036,7 @@ ul {
   .nav-main-links {
     position: fixed;
     left: -100%;
-    top: 70px;
+    top: 68px;
     font-size: 20px;
     flex-direction: column;
     background-color: rgba(120, 67, 233, 0.9);
